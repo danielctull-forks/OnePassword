@@ -1,0 +1,3 @@
+[submodule "OnePasswordExtension"]
+	path = OnePasswordExtension
+	url = git://github.com/danielctull-forks/onepassword-app-extension.git
