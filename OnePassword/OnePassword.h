@@ -10,6 +10,7 @@
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wauto-import"
+#pragma clang diagnostic ignored "-Wdocumentation"
 #import <OnePassword/OnePasswordExtension.h>
 #pragma clang diagnostic pop
 
