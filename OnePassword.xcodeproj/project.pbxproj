@@ -22,6 +22,32 @@
 		2412E82E19DBE37F00E0C85C /* OnePasswordExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnePasswordExtension.m; path = OnePasswordExtension/OnePasswordExtension.m; sourceTree = SOURCE_ROOT; };
 		2412E83119DBE39A00E0C85C /* 1Password.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = 1Password.xcassets; path = OnePasswordExtension/1Password.xcassets; sourceTree = SOURCE_ROOT; };
 		2412E83319DBE6FC00E0C85C /* OnePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePassword.m; sourceTree = "<group>"; };
+		24CCFEB41D9E2D6200228331 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		24CCFEB71D9E2D6200228331 /* iOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
+		24CCFEB81D9E2D6200228331 /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
+		24CCFEB91D9E2D6200228331 /* iOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24CCFEBA1D9E2D6200228331 /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24CCFEBB1D9E2D6200228331 /* iOS Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		24CCFEBC1D9E2D6200228331 /* iOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFEBD1D9E2D6200228331 /* iOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFEBE1D9E2D6200228331 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		24CCFEC01D9E2D6200228331 /* macOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Application.xcconfig"; sourceTree = "<group>"; };
+		24CCFEC11D9E2D6200228331 /* macOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24CCFEC21D9E2D6200228331 /* macOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24CCFEC31D9E2D6200228331 /* macOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFEC41D9E2D6200228331 /* macOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFEC51D9E2D6200228331 /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
+		24CCFEC61D9E2D6200228331 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		24CCFECF1D9E2D6200228331 /* tvOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Application.xcconfig"; sourceTree = "<group>"; };
+		24CCFED01D9E2D6200228331 /* tvOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24CCFED11D9E2D6200228331 /* tvOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24CCFED21D9E2D6200228331 /* tvOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFED31D9E2D6200228331 /* tvOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24CCFED41D9E2D6200228331 /* tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
+		24CCFED61D9E2D6200228331 /* watchOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Application.xcconfig"; sourceTree = "<group>"; };
+		24CCFED71D9E2D6200228331 /* watchOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24CCFED81D9E2D6200228331 /* watchOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24CCFED91D9E2D6200228331 /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				2412E81619DBE34300E0C85C /* OnePassword */,
+				24CCFEB21D9E2D6200228331 /* Configurations */,
 				2412E81519DBE34300E0C85C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +89,71 @@
 				2412E81819DBE34300E0C85C /* Info.plist */,
 			);
 			path = OnePassword;
+			sourceTree = "<group>";
+		};
+		24CCFEB21D9E2D6200228331 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				24CCFEB41D9E2D6200228331 /* Debug.xcconfig */,
+				24CCFEC61D9E2D6200228331 /* Release.xcconfig */,
+				24CCFEB61D9E2D6200228331 /* iOS */,
+				24CCFEBF1D9E2D6200228331 /* macOS */,
+				24CCFECE1D9E2D6200228331 /* tvOS */,
+				24CCFED51D9E2D6200228331 /* watchOS */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		24CCFEB61D9E2D6200228331 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24CCFEB71D9E2D6200228331 /* iOS Application.xcconfig */,
+				24CCFEB81D9E2D6200228331 /* iOS Bundle.xcconfig */,
+				24CCFEB91D9E2D6200228331 /* iOS Extension.xcconfig */,
+				24CCFEBA1D9E2D6200228331 /* iOS Framework.xcconfig */,
+				24CCFEBB1D9E2D6200228331 /* iOS Static Library.xcconfig */,
+				24CCFEBC1D9E2D6200228331 /* iOS Tests.xcconfig */,
+				24CCFEBD1D9E2D6200228331 /* iOS UI Tests.xcconfig */,
+				24CCFEBE1D9E2D6200228331 /* iOS.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		24CCFEBF1D9E2D6200228331 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				24CCFEC01D9E2D6200228331 /* macOS Application.xcconfig */,
+				24CCFEC11D9E2D6200228331 /* macOS Extension.xcconfig */,
+				24CCFEC21D9E2D6200228331 /* macOS Framework.xcconfig */,
+				24CCFEC31D9E2D6200228331 /* macOS Tests.xcconfig */,
+				24CCFEC41D9E2D6200228331 /* macOS UI Tests.xcconfig */,
+				24CCFEC51D9E2D6200228331 /* macOS.xcconfig */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		24CCFECE1D9E2D6200228331 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				24CCFECF1D9E2D6200228331 /* tvOS Application.xcconfig */,
+				24CCFED01D9E2D6200228331 /* tvOS Extension.xcconfig */,
+				24CCFED11D9E2D6200228331 /* tvOS Framework.xcconfig */,
+				24CCFED21D9E2D6200228331 /* tvOS Tests.xcconfig */,
+				24CCFED31D9E2D6200228331 /* tvOS UI Tests.xcconfig */,
+				24CCFED41D9E2D6200228331 /* tvOS.xcconfig */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		24CCFED51D9E2D6200228331 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				24CCFED61D9E2D6200228331 /* watchOS Application.xcconfig */,
+				24CCFED71D9E2D6200228331 /* watchOS Extension.xcconfig */,
+				24CCFED81D9E2D6200228331 /* watchOS Framework.xcconfig */,
+				24CCFED91D9E2D6200228331 /* watchOS.xcconfig */,
+			);
+			path = watchOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,122 +246,43 @@
 /* Begin XCBuildConfiguration section */
 		2412E82519DBE34300E0C85C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CCFEB41D9E2D6200228331 /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Debug;
 		};
 		2412E82619DBE34300E0C85C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CCFEC61D9E2D6200228331 /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;
 		};
 		2412E82819DBE34300E0C85C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CCFEBA1D9E2D6200228331 /* iOS Framework.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_NOTICES = NO;
-				ASSETCATALOG_WARNINGS = NO;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OnePassword/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-nullable-to-nonnull-conversion",
+					"-Wno-overlength-strings",
+					"-Wno-auto-import",
+				);
 			};
 			name = Debug;
 		};
 		2412E82919DBE34300E0C85C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CCFEBA1D9E2D6200228331 /* iOS Framework.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_NOTICES = NO;
-				ASSETCATALOG_WARNINGS = NO;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OnePassword/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-nullable-to-nonnull-conversion",
+					"-Wno-overlength-strings",
+					"-Wno-auto-import",
+				);
 			};
 			name = Release;
 		};

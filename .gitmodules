@@ -1,3 +1,6 @@
 [submodule "OnePasswordExtension"]
 	path = OnePasswordExtension
 	url = git://github.com/danielctull-forks/onepassword-app-extension.git
+[submodule "Configurations"]
+	path = Configurations
+	url = git://github.com/danielctull/Xcode-Configurations.git
