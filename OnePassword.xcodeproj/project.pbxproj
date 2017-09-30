@@ -249,6 +249,7 @@
 			baseConfigurationReference = 24CCFEB41D9E2D6200228331 /* Debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_VERSION = 1.8.4;
 			};
@@ -259,6 +260,7 @@
 			baseConfigurationReference = 24CCFEC61D9E2D6200228331 /* Release.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.agilebits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_VERSION = 1.8.4;
 			};
